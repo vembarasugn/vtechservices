@@ -25,7 +25,7 @@ function Projects() {
                                 </div> 
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
-                                <img className="absolute w-full h-full inset-0 object-cover object-center rounded-md" src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png" alt="true" />
+                                <Image className="absolute w-full h-full inset-0 object-cover object-center rounded-md" src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png" alt="true" />
                                 <div className="relative z-10 bg-white rounded shadow p-6 w-10/12 -mb-20">
                                     <div className="flex items-center justify-between w-full sm:w-full mb-8">
                                         <div className="flex items-center">
@@ -78,7 +78,7 @@ function Projects() {
                                 </div>
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
-                                <img className="absolute w-full h-full inset-0 object-cover object-center rounded-md"  src="https://cdn.tuk.dev/assets/templates/prodify/invoicing-system.png" alt="true" />
+                                <Image className="absolute w-full h-full inset-0 object-cover object-center rounded-md"  src="https://cdn.tuk.dev/assets/templates/prodify/invoicing-system.png" alt="true" />
                                 <div className="relative z-10 p-4 bg-white shadow rounded mx-auto w-9/12 -mb-20">
                                     <h4 className="text-gray-500 font-normal text-md leading-4 tracking-normal mb-2">Invoice # 35RD87</h4>
                                     <p className="text-gray-600 text-xs leading-3 font-normal">Assigned to: Josh Rollins</p>
@@ -127,7 +127,7 @@ function Projects() {
                                 </div> 
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
-                                <img className="absolute w-full h-full inset-0 object-cover object-center rounded-md" src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png" alt="true" />
+                                <Image className="absolute w-full h-full inset-0 object-cover object-center rounded-md" src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png" alt="true" />
                                 <div className="relative z-10 bg-white rounded shadow p-6 w-10/12 -mb-20">
                                     <div className="flex items-center justify-between w-full sm:w-full mb-8">
                                         <div className="flex items-center">

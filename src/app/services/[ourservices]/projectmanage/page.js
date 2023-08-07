@@ -20,7 +20,7 @@ const projectManagement = () => {
       </a>
     </div>
     <div className='w-full p-2 lg:w-1/2 md:w-1/2 hidden md:block'>
-      <img className='rounded' src="/projectmanagement2.jpg" alt="projectmanagement2img"/>
+      <Image className='rounded' src="/projectmanagement2.jpg" alt="projectmanagement2img"/>
     </div>
   </div>
   </div>

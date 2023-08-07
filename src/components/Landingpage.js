@@ -1,5 +1,6 @@
 import React from 'react';
 import Video from '/src/app/video/page';
+import Image from 'next/image';
 
 const Landingpage = () => {
 
@@ -47,8 +48,8 @@ const Landingpage = () => {
             Download our apps: Coming Soon...
           </p>
           <div className="flex w-full justify-center md:justify-start pb-24 lg:pb-0 fade-in">
-            <img src="App Store.svg" className="h-12 pr-12 transform hover:scale-125 " />
-            <img src="Play Store.svg" className="h-12 transform hover:scale-125" />
+            <Image src="App Store.svg" className="h-12 pr-12 transform hover:scale-125 " />
+            <Image src="Play Store.svg" className="h-12 transform hover:scale-125" />
           </div>
         </div>
      </div>
