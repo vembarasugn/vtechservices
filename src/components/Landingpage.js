@@ -20,7 +20,7 @@ const Landingpage = () => {
           </p>
           <form className="bg-gray-800 opacity-75 w-full shadow-lg rounded px-8 pt-6 pb-8 mb-4">
             <div className="mb-4">
-              <label className="block text-blue-500 py-2 font-bold mb-2" htmlFor="emailaddress">
+              <label className="block text-blue-300 py-2 font-bold mb-2" htmlFor="emailaddress">
                 Contact Our Sales Team
               </label>
               <input
