@@ -30,7 +30,7 @@ return (
               About Us
             </h1>
             </div>
-            <p className="mb-6 text-sm leading-8 text-justify text-gray-500 dark:text-gray-400 ">
+            <p className="mb-6 font-medium leading-8 text-justify text-gray-500 dark:text-gray-400 ">
             V-TECH Renewables(Formerly known as V-TECH Consultancy Services) as is a highly reputable consultancy service provider that focuses on electrical projects and solar power projects. With our establishment in 2009, we have accumulated more than a decade of experience in the industry, making us one of the most knowledgeable and  reliable companies in the field. We are committed to providing quality services to our clients and have established an excellent track record over the years. Our team of expert engineers and technicians are well-equipped to handle any electrical or solar projects. We strive to meet the highest standards of customer satisfaction.
             </p>
             <a href="#" className="px-4 py-2 text-gray-100 bg-gray-500 rounded dark:bg-gray-400 dark:hover:bg-teal-500  hover:bg-gray-400">Learn more<span aria-hidden="true">→</span></a>
