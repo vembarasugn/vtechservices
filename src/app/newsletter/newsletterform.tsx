@@ -21,12 +21,12 @@ function NewsletterForm() {
           setLoading(false);
           setSuccess(true);
           setSubscriberMessage(res.data.message);
-          // Reset form fields
-          setMail("");
-          return;
         } else {
           setLoading(false);
           setSubscriberMessage(res.data.message);
+          // Reset form fields
+          setMail("");
+          return;
         }
       })
       .catch((err) => {

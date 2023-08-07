@@ -99,9 +99,9 @@ function Contact(){
         setMessage("");
         return;
       }
-      setShowSuccessMessage(true);
-      setShowFailureMessage(false);
-      setButtonText("Submit");
+        setShowSuccessMessage(true);
+        setShowFailureMessage(false);
+        setButtonText("Submit");
         // Reset form fields
         setFirstname("");
         setLastname("");
