@@ -32,8 +32,8 @@ const footer = () => {
       <div className='p-10'>
         <ul>
           <p className='text-teal-500 font-semibold text-2xl pb-3'>Projects</p>
-          <li className='text-gray-500 text-md pb-1 font-semibold hover:text-teal-500 cursor-pointer no-underline hover:underline decoration-4'>Electrical Project</li>
-          <li className='text-gray-500 text-md pb-1 font-semibold hover:text-teal-500 cursor-pointer no-underline hover:underline decoration-4'>SolarPower Project</li>
+          <li className='text-gray-500 text-md pb-1 font-semibold hover:text-teal-500 cursor-pointer no-underline hover:underline decoration-4'>Electrical</li>
+          <li className='text-gray-500 text-md pb-1 font-semibold hover:text-teal-500 cursor-pointer no-underline hover:underline decoration-4'>SolarPower</li>
         </ul>
       </div>
       <div className='p-10'>
