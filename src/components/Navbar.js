@@ -50,7 +50,7 @@ const navBar = () => {
         <li><Link href="/" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-500 decoration-4 text-gray-300">HOME</Link></li>
         <li><Link href="/aboutus" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-500 decoration-4 text-gray-300">ABOUT</Link></li>
         <li><Link href="/services" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-400 decoration-4 text-gray-300">SERVICES</Link></li>
-        <li><Link href="/feature" className="bg-gray-800 px-3 py-2 font-senmibold text-base hover:text-teal-500 decoration-4 text-gray-300">PROJECTS</Link></li>
+        <li><Link href="/projects" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-400 decoration-4 text-gray-300">PROJECTS</Link></li>
         <li><Link href="/contactus" className="bg-gray-800 px-3 py-2 font-semibold text-base hover:text-teal-500 decoration-4 text-gray-300">CONTACT</Link></li>
       </ul>
       </div>  

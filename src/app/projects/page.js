@@ -12,20 +12,20 @@ function Projects() {
                 </h1>
               </div>
             <div className="md:mx-auto md:container px-4">
-                <div className="pt-10 md:pt-40">
+                <div className="pt-8 md:pt-40">
                     <div className="container mx-auto">
                         <div className="flex flex-wrap items-center pb-12">
                             <div className="md:w-1/2 lg:w-2/3 w-full xl:pr-20 md:pr-6">
                                 <div className="py-2 text-color">
                                     <h2 className="text-2xl lg:text-4xl md:leading-snug tracking-tighter f-f-l font-black text-teal-500">Boost adoption of product and services</h2>
-                                    <p className="text-normal text-lg sm:text-2xl font-medium text-gray-400 dark:text-gray-400 mt-2">Here at Globex we take special care of what your organization needs instead of selling you a mass market tool that takes a one size fits all approach. I personally review each and every client business and oversee the team that tailores a solution</p>
+                                    <p className="text-normal text-base sm:text-2xl font-medium text-gray-400 dark:text-gray-400 mt-2">Here at Globex we take special care of what your organization needs instead of selling you a mass market tool that takes a one size fits all approach. I personally review each and every client business and oversee the team that tailores a solution</p>
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0">
-                                        <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-gray-500">Lets Get Started➔</h3>
+                                        <h3 className="f-f-r text-base lg:text-2xl font-semibold underline text-gray-500">Lets Get Started➔</h3>
                                     </div>
                                 </div> 
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
-                                <Image className="absolute w-full h-full inset-0 object-cover object-center rounded-md" src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png" alt="true" />
+                                <Image className="absolute w-full h-full inset-0 object-cover object-center rounded-md" src="https://cdn.tuk.dev/assets/templates/prodify/ProductAdoption.png" alt="true"/>
                                 <div className="relative z-10 bg-white rounded shadow p-6 w-10/12 -mb-20">
                                     <div className="flex items-center justify-between w-full sm:w-full mb-8">
                                         <div className="flex items-center">
@@ -71,14 +71,14 @@ function Projects() {
                             <div className="md:w-1/2 lg:w-2/3 w-full lg:pl-20 md:pl-10 sm:pl-0 pl-0">
                                 <div className="py-2 text-color">
                                     <h2 className="text-2xl lg:text-4xl tracking-tighter md:leading-snug f-f-l font-black text-teal-500">Easily manage sales through our invoicing system</h2>
-                                    <p className="text-normal text-lg sm:text-2xl font-medium text-gray-400 dark:text-gray-400 mt-2">Here at Globex we take special care of what your organization needs instead of selling you a mass market tool that takes a one size fits all approach. I personally review each and every client business and oversee the team that tailores a solution</p>
+                                    <p className="text-normal text-base sm:text-2xl font-medium text-gray-400 dark:text-gray-400 mt-2">Here at Globex we take special care of what your organization needs instead of selling you a mass market tool that takes a one size fits all approach. I personally review each and every client business and oversee the team that tailores a solution</p>
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0">
-                                        <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-gray-500">Lets Get Started ➔</h3>
+                                        <h3 className="f-f-r text-base lg:text-2xl font-semibold underline text-gray-500">Lets Get Started ➔</h3>
                                     </div>
                                 </div>
                             </div>
                             <div className="lg:w-1/3 md:w-1/2 w-full relative h-96 flex items-end justify-center">
-                                <Image className="absolute w-full h-full inset-0 object-cover object-center rounded-md"  src="https://cdn.tuk.dev/assets/templates/prodify/invoicing-system.png" alt="true" />
+                                <Image className="absolute w-full h-full inset-0 object-cover object-center rounded-md"  src="https://cdn.tuk.dev/assets/templates/prodify/invoicing-system.png" alt="true"/>
                                 <div className="relative z-10 p-4 bg-white shadow rounded mx-auto w-9/12 -mb-20">
                                     <h4 className="text-gray-500 font-normal text-md leading-4 tracking-normal mb-2">Invoice # 35RD87</h4>
                                     <p className="text-gray-600 text-xs leading-3 font-normal">Assigned to: Josh Rollins</p>
@@ -120,9 +120,9 @@ function Projects() {
                             <div className="md:w-1/2 lg:w-2/3 w-full xl:pr-20 md:pr-6">
                                 <div className="py-2 text-color">
                                     <h2 className="text-2xl lg:text-4xl md:leading-snug tracking-tighter f-f-l font-black text-teal-500">Boost adoption of product and services</h2>
-                                    <p className="text-normal text-lg sm:text-2xl font-medium text-gray-400 dark:text-gray-400 mt-2">Here at Globex we take special care of what your organization needs instead of selling you a mass market tool that takes a one size fits all approach. I personally review each and every client business and oversee the team that tailores a solution</p>
+                                    <p className="text-normal text-base sm:text-2xl font-medium text-gray-400 dark:text-gray-400 mt-2">Here at Globex we take special care of what your organization needs instead of selling you a mass market tool that takes a one size fits all approach. I personally review each and every client business and oversee the team that tailores a solution</p>
                                     <div className="flex items-center cursor-pointer pb-4 md:pb-0">
-                                        <h3 className="f-f-r text-lg lg:text-2xl font-semibold underline text-gray-500">Lets Get Started➔</h3>
+                                        <h3 className="f-f-r text-base lg:text-2xl font-semibold underline text-gray-500">Lets Get Started➔</h3>
                                     </div>
                                 </div> 
                             </div>
