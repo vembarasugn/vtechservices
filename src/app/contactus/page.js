@@ -167,7 +167,7 @@ return (
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="1.5" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/>
                 </svg>
                 <div className="ml-4 text-md text-gray-400 tracking-wide font-semibold w-40">
-                <a href="mailto:vembarasugn@gmail.com">
+                <a href="mailto:info@vtechrenewables.com">
                 info@vtechrenewables.com
                 </a>
                 </div>
