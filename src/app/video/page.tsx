@@ -51,7 +51,7 @@ function Video() {
           <div className="max-w-5xl mx-auto h-full flex items-center">
               <Dialog.Panel className="w-full max-h-full rounded-3xl shadow-2xl aspect-video bg-black overflow-hidden">
                 <video ref={videoRef} width="1920" height="1080" loop controls>
-                  <source src="https://www.youtube.com/embed/r9jwGansp1E" type="video/mp4" /> 
+                  <source src="video.mp4" type="video/mp4" /> 
                   Your browser does not support the video tag.
                 </video>
               </Dialog.Panel>
