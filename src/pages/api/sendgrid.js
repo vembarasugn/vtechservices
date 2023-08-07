@@ -61,8 +61,7 @@ export default (req,res) => {
   sgMail.send(messageData).then(() =>{
     console.log('Mail has been Sent')
   }).catch((error) => {
-    console.error(error)
-    //return res.status(error.statusCode || 500).json({ error: error.message });
+    console.error(error);
   });
 
   console.log(body);

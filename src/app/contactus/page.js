@@ -2,7 +2,7 @@
 import React from 'react';
 import NewsletterForm from '../newsletter/newsletterform';
 
-export default function Contact(){
+function Contact(){
   // States for contact form fields
      const [firstname, setFirstname] = React.useState("");
      const [lastname, setLastname] = React.useState("");
@@ -53,7 +53,6 @@ export default function Contact(){
   // Handling form submit
   const handleOnSubmit = async (e) => {
     e.preventDefault();
-    //e.stopPropagation();
     console.log(e);
     const formData = {} 
     Array.from(e.currentTarget.elements).forEach(field =>{
@@ -281,3 +280,4 @@ return (
  )
 };
 
+export default Contact;

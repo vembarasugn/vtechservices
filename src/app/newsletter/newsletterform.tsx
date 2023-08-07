@@ -21,6 +21,9 @@ function NewsletterForm() {
           setLoading(false);
           setSuccess(true);
           setSubscriberMessage(res.data.message);
+          // Reset form fields
+          setMail("");
+          return;
         } else {
           setLoading(false);
           setSubscriberMessage(res.data.message);
@@ -29,6 +32,8 @@ function NewsletterForm() {
       .catch((err) => {
         setLoading(false);
         setSubscriberMessage(String(err.message));
+        // Reset form fields
+        setMail("");
       });
   };
 

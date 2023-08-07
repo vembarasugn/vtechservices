@@ -47,7 +47,7 @@ const footer = () => {
       <div className='p-10'>
         <ul>
           <p className='text-teal-500 font-semibold text-2xl pb-3'>Support</p>
-          <li><Link href="/careers" className='text-gray-500 text-md pb-1 font-semibold hover:text-teal-500 cursor-pointer no-underline hover:underline decoration-4'>Services</Link></li>
+          <li><Link href="/services" className='text-gray-500 text-md pb-1 font-semibold hover:text-teal-500 cursor-pointer no-underline hover:underline decoration-4'>Services</Link></li>
           <li><Link href="/blog" className='text-gray-500 text-md pb-1 font-semibold hover:text-teal-500 cursor-pointer no-underline hover:underline decoration-4'>Blog</Link></li>
           <li className='text-gray-500 text-md pb-1 font-semibold hover:text-teal-500 cursor-pointer no-underline hover:underline decoration-4'>Downloads & Resources</li>
         </ul>
