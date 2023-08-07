@@ -1,6 +1,7 @@
 "use client";
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 const navBar = () => {
  
@@ -26,7 +27,7 @@ const navBar = () => {
         <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">  
         <div className="w-full justify-between flex items-center">
           <Link href="/">
-           <img className="h-20 w-40" src="/vtechlogonew.png" alt="vtech-logo"/></Link>       
+           <Image className="h-20 w-40" src="/vtechlogonew.png" alt="vtech-logo"/></Link>       
           </div>
           <div className="hidden sm:ml-6 sm:block">
             <div className="flex space-x-4">
