@@ -6,7 +6,7 @@ const Landingpage = () => {
 
   return (
     <>
-      <div className="container pt-24 pb-7 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+      <div className="container pt-24 pb-10 md:pt-36 mx-auto flex flex-wrap flex-col md:flex-row items-center">
         <div className="flex flex-col w-full xl:w-2/5 justify-center lg:items-start overflow-y-hidden">
           <h1 className="my-4 text-3xl md:text-5xl text-white opacity-75 font-bold leading-tight text-center md:text-left">
             Vtech
