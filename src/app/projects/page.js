@@ -14,9 +14,6 @@ function Projects(){
           <div className="flex flex-wrap -mx-4">
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
-                <h2 className="mb-4 text-3xl font-bold text-teal-500 sm:text-4xl md:text-[40px]">
-                  Our Projects
-                </h2>
                 <p className="text-base text-gray-400 ">
                   Find our below projects.
                 </p>
@@ -26,28 +23,28 @@ function Projects(){
 
           <div className="flex flex-wrap -mx-4">
             <BlogCard
+              Image="https://i.ibb.co/7jdcnwn/image-03.jpg"
               date="Jan 07, 2023"
               CardTitle="Expertise"
               CardDescription="With over a decade of experience, our team comprises highly-skilled professionals with extensive knowledge in electrical engineering, solar power projects, and project management. Continuous learning and development are key to our success, and we stay abreast of the latest technologies, regulations, and industry trends. This expertise allows us to provide the best-in-class services to our clients, ensuring that their projects are executed ."
-              Image="https://i.ibb.co/Cnwd4q6/image-01.jpg"
             />
             <BlogCard
+              Image="https://i.ibb.co/7jdcnwn/image-03.jpg"
               date="Mar 15, 2023"
               CardTitle="Customized Solutions"
-              CardDescription="We understand that each client has unique requirements, and we tailor our solutions accordingly. Our team collaborates closely with clients to understand their goals and objectives, site conditions, and budget constraints. This collaborative approach allows us to develop customized strategies and recommendations that meet their specific needs, ensuring optimal system performance, energy savings, and return on investment. "
-              Image="https://i.ibb.co/Y23YC07/image-02.jpg"
+              CardDescription="We understand that each client has unique requirements, and we tailor our solutions accordingly. Our team collaborates closely with clients to understand their goals and objectives, site conditions, and budget constraints. This collaborative approach allows us to develop customized strategies and recommendations that meet their specific needs, ensuring optimal system performance, energy savings, and return on investment."
             />
             <BlogCard
+              Image="https://i.ibb.co/7jdcnwn/image-03.jpg"
               date="Apr 20, 2023"
               CardTitle="Quality Assurance"
               CardDescription="At V-TECH Renewables, we prioritize quality in every aspect of our work. We adhere to industry standards and best practices, ensuring that our services are delivered to the highest level of quality. Our team conducts thorough inspections, performs rigorous testing, and implements strict quality control measures throughout the project lifecycle. We source equipment and components from reputable manufacturers and suppliers to ensure."
-              Image="https://i.ibb.co/7jdcnwn/image-03.jpg"
             />
             <BlogCard
+              Image="https://i.ibb.co/7jdcnwn/image-03.jpg"
               date="Aug 11, 2023"
               CardTitle="Customer Satisfaction"
               CardDescription="Client satisfaction is our ultimate goal. We strive to exceed our clients' expectations by providing exceptional customer service and support throughout the project lifecycle. Our dedicated team of professionals is committed to open communication, transparency, and responsiveness. We listen to our clients' concerns, address their inquiries promptly, and keep them informed at every stage of the project."
-              Image="https://i.ibb.co/7jdcnwn/image-03.jpg"
             />
           </div>
         </div>
@@ -81,7 +78,7 @@ const BlogCard = ({ Image, date, CardTitle, CardDescription }) => {
                 {CardTitle}
               </a>
             </h3>
-            <p className="text-base text-gray-500">{CardDescription}</p>
+            <p className="text-base text-gray-500 text-justify">{CardDescription}</p>
           </div>
         </div>
       </div>
