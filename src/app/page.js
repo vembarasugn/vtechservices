@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import About from './aboutus/page';
+//import About from './aboutus/page';
 import Landingpage from '/src/components/Landingpage/page';
 //import Services from '/src/app/services/page';
 //import Projects from '/src/app/projects/page';
