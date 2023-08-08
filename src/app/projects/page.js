@@ -15,7 +15,7 @@ function Projects(){
             <div className="w-full px-4">
               <div className="mx-auto mb-[60px] max-w-[510px] text-center lg:mb-20">
                 <p className="text-base text-gray-400 ">
-                  Find our below projects.
+                  Find our below projects for your reference.
                 </p>
               </div>
             </div>
@@ -78,7 +78,7 @@ const BlogCard = ({ Image, date, CardTitle, CardDescription }) => {
             <img src={Image} alt="" className="w-full rounded"/>
             <p className="text-base text-gray-500 text-justify">{CardDescription}</p>
           </div>
-          <div className="pt-2">
+          <div className="pt-4">
             <a href="#" className="px-4 py-2 text-gray-100 bg-gray-500 rounded dark:bg-gray-400 dark:hover:bg-teal-500  hover:bg-gray-400">Learn more<span aria-hidden="true">→</span></a>
           </div>
         </div>
