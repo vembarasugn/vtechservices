@@ -61,9 +61,9 @@ const BlogCard = ({ Image, date, CardTitle, CardDescription }) => {
     <>
       <div className="w-full px-4 md:w-1/2 lg:w-1/3">
         <div className="mx-auto mb-10 max-w-[370px]">
-          <div className="mb-8 overflow-hidden rounded">
-            <img src={Image} alt="" className="w-full" />
-          </div>
+          {/* <div className="mb-8 overflow-hidden rounded">
+           <img src={Image} alt="" className="w-full"/>
+          </div> */}
           <div>
             {date && (
               <span className="inline-block px-4 py-1 mb-5 text-xs font-semibold leading-loose text-center text-teal-500 rounded bg-primary">
@@ -78,10 +78,11 @@ const BlogCard = ({ Image, date, CardTitle, CardDescription }) => {
                 {CardTitle}
               </a>
             </h3>
+            <img src={Image} alt="" className="w-full" />
             <p className="text-base text-gray-500 text-justify">{CardDescription}</p>
-            <div className="pt-2">
+          </div>
+          <div className="pt-2">
             <a href="#" className="px-4 py-2 text-gray-100 bg-gray-500 rounded dark:bg-gray-400 dark:hover:bg-teal-500  hover:bg-gray-400">Learn more<span aria-hidden="true">→</span></a>
-            </div>
           </div>
         </div>
       </div>
