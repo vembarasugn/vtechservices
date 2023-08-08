@@ -79,7 +79,7 @@ const BlogCard = ({ Image, date, CardTitle, CardDescription }) => {
               </a>
             </h3>
             <p className="text-base text-gray-500 text-justify">{CardDescription}</p>
-            <a href="#" className="px-4 py-2 text-gray-100 bg-gray-500 rounded dark:bg-gray-400 dark:hover:bg-teal-500  hover:bg-gray-400">Learn more<span aria-hidden="true">→</span></a>
+            <a href="#" className="px-4 py-2 pt-2 text-gray-100 bg-gray-500 rounded dark:bg-gray-400 dark:hover:bg-teal-500  hover:bg-gray-400">Learn more<span aria-hidden="true">→</span></a>
           </div>
         </div>
       </div>
