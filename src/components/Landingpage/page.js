@@ -32,7 +32,7 @@ const Landingpage = () => {
             </div>
             <div className="flex items-center justify-between pt-4">
               <button
-                className="bg-gradient-to-r to-green-800 hover:from-gray-500 hover:to-green-700 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-80  ease-in-out"
+                className="bg-gradient-to-r from-blue-300 to-green-800 hover:from-gray-500 hover:to-green-700 text-white font-bold py-2 px-4 rounded focus:ring transform transition hover:scale-80  ease-in-out"
                 type="button"
               >
                Contact Us
