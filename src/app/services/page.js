@@ -119,7 +119,6 @@ const Services = () => {
             <div className="flex items-center mb-6">
               <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG1.svg" 
               <div className="ml-4 text-xl">Expertise</div>
-            </div>
             <p className="leading-loose text-gray-500">
             With over a decade of experience, our team comprises highly-skilled professionals with extensive knowledge in electrical engineering, solar power projects, and project management. Continuous learning and development are key to our success, and we stay abreast of the latest technologies, regulations, and industry trends. This expertise allows us to provide the best-in-class services to our clients, ensuring that their projects are executed to the highest standards.We strive to deliver the best results for every project and are continually improving our processes and technology to ensure that our customers get the most value for their money.
             </p>
@@ -150,7 +149,6 @@ const Services = () => {
             <p className="leading-loose text-gray-500">
             Client satisfaction is our ultimate goal. We strive to exceed our clients' expectations by providing exceptional customer service and support throughout the project lifecycle. Our dedicated team of professionals is committed to open communication, transparency, and responsiveness. We listen to our clients' concerns, address their inquiries promptly, and keep them informed at every stage of the project. We also provide comprehensive post-installation support, including maintenance, troubleshooting, and system optimization. Our commitment to superior customer service enables us to build long-lasting relationships with our clients, based on trust and mutual success.
             </p>
-          </div>
           </div>
         </div>
         </section>
