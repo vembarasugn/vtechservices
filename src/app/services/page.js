@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-//import check from '/public/check.svg';
+import Check from '/public/check.svg';
 
 const Services = () => {
   return (
@@ -117,15 +117,16 @@ const Services = () => {
           <div className="flex flex-wrap my-12">
            <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 p-8">
             <div className="flex items-center mb-6">
-              <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG1.svg" 
+              <Check width={20} height={20} fill="currentColor" className="h-6 w-6 text-teal-500" />
               <div className="ml-4 text-xl">Expertise</div>
+            </div>
             <p className="leading-loose text-gray-500">
             With over a decade of experience, our team comprises highly-skilled professionals with extensive knowledge in electrical engineering, solar power projects, and project management. Continuous learning and development are key to our success, and we stay abreast of the latest technologies, regulations, and industry trends. This expertise allows us to provide the best-in-class services to our clients, ensuring that their projects are executed to the highest standards.We strive to deliver the best results for every project and are continually improving our processes and technology to ensure that our customers get the most value for their money.
             </p>
           </div>
           <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r p-8">
             <div className="flex items-center mb-6">
-              <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG2.svg" alt="check"/>
+              <Check width={20} height={20} fill="currentColor" className="h-6 w-6 text-teal-500"/>
               <div className="ml-4 text-xl">Quality Assurance</div>
             </div>
             <p className="leading-loose text-gray-500">
@@ -134,7 +135,7 @@ const Services = () => {
           </div>
           <div className="w-full border-b md:w-1/2 md:border-r lg:w-1/3 lg:border-r-0 p-8">
             <div className="flex items-center mb-6">
-               <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG3.svg" alt="html tag"/>
+              <Check width={20} height={20} fill="currentColor" className="h-6 w-6 text-teal-500"/>
               <div className="ml-4 text-xl">Customized Solutions</div>
             </div>
             <p className="leading-loose text-gray-500">
@@ -143,12 +144,13 @@ const Services = () => {
           </div>
           <div className="w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8">
             <div className="flex items-center mb-6">
-              <Image src="https://tuk-cdn.s3.amazonaws.com/can-uploader/icon_and_text-SVG4.svg" alt="monitor"/>
+              <Check width={20} height={20} fill="currentColor" className="h-6 w-6 text-teal-500"/>
               <div className="ml-4 text-xl">Customer Satisfaction</div>
             </div>
             <p className="leading-loose text-gray-500">
             Client satisfaction is our ultimate goal. We strive to exceed our clients' expectations by providing exceptional customer service and support throughout the project lifecycle. Our dedicated team of professionals is committed to open communication, transparency, and responsiveness. We listen to our clients' concerns, address their inquiries promptly, and keep them informed at every stage of the project. We also provide comprehensive post-installation support, including maintenance, troubleshooting, and system optimization. Our commitment to superior customer service enables us to build long-lasting relationships with our clients, based on trust and mutual success.
             </p>
+          </div>
           </div>
         </div>
         </section>
